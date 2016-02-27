@@ -1,0 +1,13 @@
+maxW: 300px
+maxH: -
+
+imW: 1024px
+imH:  768px
+
+(ha w > h)
+resizedImW: 300 (x = 1024/300)
+resizedImH: 768/x
+
+(ha h > w)
+resizedImH: maxH (x = imH / maxH)
+resitedImW: imW / x
